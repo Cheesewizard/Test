@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2408085946676786979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7667947733631502111}
+  - component: {fileID: 3145465693035930777}
+  m_Layer: 0
+  m_Name: Note
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7667947733631502111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2408085946676786979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3145465693035930777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2408085946676786979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e13658a63ca1d048992da86bf429b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TransformLabelGizmo
+  _showLabel: 1
+  _onlyWhenSelected: 0
+  _customText: 
+  _fontSize: 12
+  _textColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _scaleWithDistance: 1
+  _verticalOffset: 9.91
+  _drawLeaderLine: 1
+  _drawBackground: 1
+  _backgroundColor: {r: 0, g: 0, b: 0, a: 0.45}
+  _drawBorder: 1
+  _borderColor: {r: 1, g: 1, b: 1, a: 0.25}
+  _borderThickness: 1
+  _padding: {x: 6, y: 3}
+  _cullWhenBehindCamera: 1
+  _cullWhenOffscreen: 1
+  _wrapText: 1
+  _maxLabelWidth: 220
