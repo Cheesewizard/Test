@@ -16,7 +16,7 @@ namespace Project.Scripts.Avatar
 		private float minFov = 50f;
 
 		[SerializeField]
-		private float maxFov = 120f;
+		private float maxFov = 110f;
 
 		private Vector2 targetFov;
 
