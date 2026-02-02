@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Project.Scripts.Avatar
 {
-	public class UpdateEmissionsForSafeZoneMaterial : MonoBehaviour
+	public class UpdateEmissionsForFullscreenSafeZoneMaterial : MonoBehaviour
 	{
 		[SerializeField]
 		private Material material;

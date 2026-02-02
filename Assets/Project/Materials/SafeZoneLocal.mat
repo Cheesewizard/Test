@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SafeZone
-  m_Shader: {fileID: -6465566751694194690, guid: 6b6978e13fb46e0419b94b9c304f4372, type: 3}
+  m_Name: SafeZoneLocal
+  m_Shader: {fileID: -6465566751694194690, guid: 9344725811223d14ca74350777c3f936, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -87,7 +87,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
-    - _Alpha: 1
+    - _Alpha: 0.6
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -120,7 +120,7 @@ Material:
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 1.13
+    - _Radius: -0.09
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -135,14 +135,15 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmitterPos1: {r: 0, g: 0, b: 10, a: 0}
+    - _EmitterPos1: {r: 0, g: 0, b: -10, a: 0}
     - _EmitterPos2: {r: 0, g: 3.917, b: 32.868, a: 0}
     - _EmitterPos3: {r: 0, g: 3.917, b: -32.868, a: 0}
     - _EmitterPos4: {r: 10, g: 0, b: 0, a: 0}
     - _EmitterPos5: {r: -10, g: 0, b: 0, a: 0}
     - _EmitterPos6: {r: 0, g: 0, b: -10, a: 0}
-    - _SafeColor: {r: 0, g: 1, b: 0.09019613, a: 1}
+    - _SafeColor: {r: 0.108854294, g: 1, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SphereCenter: {r: -1.09, g: -1.13, b: -0.87, a: 0}
     - _SpherePos: {r: 10, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
