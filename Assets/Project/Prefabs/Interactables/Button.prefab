@@ -89,6 +89,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8896098896139639573
 BoxCollider:
@@ -122,6 +123,7 @@ GameObject:
   - component: {fileID: 7194965450561194308}
   - component: {fileID: 1866789199416428700}
   - component: {fileID: 6932120085960051998}
+  - component: {fileID: 5191210022176574563}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -181,6 +183,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Button
   _emission: {fileID: 8563673481343708672}
+--- !u!114 &5191210022176574563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6190439086370153313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f51488f6fcd414b816d8ff1bd668de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Scripts.Gameplay.MissionServiceSubscriber
+  <Emission>k__BackingField: {fileID: 8563673481343708672}
 --- !u!1 &8669177558030134541
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +285,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6814691343439891858
 BoxCollider:

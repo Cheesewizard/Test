@@ -87,6 +87,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
+    - _Alpha: 0.74
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -100,7 +101,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EdgeSoftness: 1
+    - _EdgeSoftness: 0
     - _EmissionRadius: 5
     - _EnvironmentReflections: 1
     - _Fullscreen_AlphaBlendOperation: 0
@@ -139,7 +140,8 @@ Material:
     - _EmitterPos3: {r: 0, g: 3.917, b: -32.868, a: 0}
     - _EmitterPos4: {r: 10, g: 0, b: 0, a: 0}
     - _EmitterPos5: {r: -10, g: 0, b: 0, a: 0}
-    - _SafeColor: {r: 0, g: 1, b: 0.14139959, a: 1}
+    - _EmitterPos6: {r: 0, g: 0, b: -10, a: 0}
+    - _SafeColor: {r: 0, g: 1, b: 0.08857727, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpherePos: {r: 10, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
